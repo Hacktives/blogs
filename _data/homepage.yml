@@ -1,0 +1,18 @@
+####################### banner #######################################
+banner:
+  enable: true
+  title: "Hi, I'm Idev. <br> I from Indonesia this My Blog and Welcome to my personal website"
+  image: "/assets/images/banner/illustration.svg"
+  bg_image: "/assets/images/banner/banner-bg.svg"
+
+######################## call to action ###############################
+call_to_action:
+  enable: true
+  title: "Send Mesage to Owner"
+  image: "/assets/images/logo.svg"
+  description: "If u Have trouble or u wana upload your article on website u can send on contact form"
+  button:
+    enable: true
+    label: "Visit Here"
+    link: "/contact"
+  {% include ads.html %}
